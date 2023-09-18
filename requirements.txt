@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+torch
+sentence-transformers
+langchain
+python-dotenv
+openai
+tabulate
+chromadb
+tiktoken
+pysqlite3-binary
+PyPDF2
