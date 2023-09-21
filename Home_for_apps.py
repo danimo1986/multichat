@@ -2,7 +2,7 @@ import streamlit as st
 
 
 st.title("Homepage for My ChatGPT")
-st.header('This app provides multiple functions for ChatGPT')
+st.header('These apps provide multiple functions for ChatGPT')
 
 #st.markdown('''
 #Hello!
