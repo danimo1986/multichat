@@ -8,7 +8,7 @@ import os
 import openai
 
 # Streamlitアプリのタイトル
-st.title('CSV File Uploader and Similarity Calculator')
+st.title('💕CSV File Uploader and Similarity Calculator')
 
 # Streamlitのサイドバーを使用してAPIキーを入力させる
 user_api_key = st.sidebar.text_input(

@@ -32,7 +32,7 @@ def generate_response(uploaded_file, openai_api_key, query_text):
             return "Error: PDF text extraction failed."
 
 # Page title
-st.set_page_config(page_title='🦜🔗 Ask the PDF App')
+st.set_page_config(page_title='🌍Multi-ChatGPT App')
 st.title('🦜🔗 Ask the PDF App')
 
 # File upload
