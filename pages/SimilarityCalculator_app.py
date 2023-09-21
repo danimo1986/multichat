@@ -33,7 +33,7 @@ encoding = tiktoken.get_encoding(embedding_encoding)
 max_tokens = 8000
 
 # 類似度計算のトップN
-top_n = 3
+top_n = 5
 
 # データフレームを格納する変数
 df = None
