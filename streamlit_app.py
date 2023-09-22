@@ -21,7 +21,7 @@ Below are descriptions for each app.
 - **DDD: 🌍Web Search:**
   When you ask a question, it will provide answers using information from the web!
             
-- **EEE: 🐍ython Agent:**
+- **EEE: 🐍Python Agent:**
   It will respond to your questions using Python! For example, calculations can be performed in response to natural language questions like, "What is the fifth prime number?".
 ''')
 
