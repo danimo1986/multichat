@@ -34,6 +34,9 @@ def generate_response(uploaded_file, openai_api_key, query_text):
 # Page title
 st.set_page_config(page_title='🌍Multi-ChatGPT App')
 st.title('🦜🔗 Ask the PDF App')
+st.markdown('''
+You can ask questions about the content of the uploaded PDF! For example, you can inquire about specific information or details within the PDF document.
+''')
 
 # File upload
 uploaded_file = st.file_uploader('Upload a PDF file', type=['pdf'])

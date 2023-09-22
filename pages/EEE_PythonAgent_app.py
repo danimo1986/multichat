@@ -13,6 +13,10 @@ def main():
     # Page title
     st.title("🐍Python Agent App")
 
+    st.markdown('''
+    It will respond to your questions using Python! For example, calculations can be performed in response to natural language questions like, "What is the fifth prime number?".
+    ''')
+
     # Sidebar for API key input
     user_api_key = st.sidebar.text_input(
         label="OpenAI API key",

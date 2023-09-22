@@ -18,6 +18,10 @@ def main():
     # Page title
     st.title("🌍Chat on WebInfo App by duckduckgo-search")
 
+    st.markdown('''
+    When you ask a question, it will provide answers using information from the web! Think of it as having a virtual researcher that fetches information from a wide range of online resources.
+    ''')
+
     # Sidebar for API key input
     user_api_key = st.sidebar.text_input(
         label="OpenAI API key",

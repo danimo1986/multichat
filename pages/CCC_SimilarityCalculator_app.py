@@ -9,6 +9,9 @@ import openai
 
 # Streamlitアプリのタイトル
 st.title('💕CSV File Uploader and Similarity Calculator')
+st.markdown('''
+From the uploaded CSV file dataset, it will extract and display the top 5 items most relevant to the input text! This tool helps you find the items in the dataset that are closest to your query.
+''')
 
 # Streamlitのサイドバーを使用してAPIキーを入力させる
 user_api_key = st.sidebar.text_input(

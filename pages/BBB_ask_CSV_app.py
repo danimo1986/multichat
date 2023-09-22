@@ -22,8 +22,11 @@ response_templates = [
 ]
 
 # Page title
-st.set_page_config(page_title='🦜🔗 Ask the CSV App')
+#st.set_page_config(page_title='🦜🔗 Ask the CSV App')
 st.title('🦜🔗 Ask the CSV App')
+st.markdown('''
+You can ask questions about the data from the uploaded CSV file! This allows you to retrieve specific data points from the CSV dataset or ask about patterns in the data.
+''')
 
 # Input API KEY
 user_api_key = st.sidebar.text_input(
