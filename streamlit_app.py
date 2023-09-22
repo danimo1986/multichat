@@ -9,20 +9,20 @@ Please select an app from the sidebar.
 
 Below are descriptions for each app.
 
-- **AAA: ask PDF**
+- **AAA: 🦜🔗ask PDF:**
   You can ask questions about the content of the uploaded PDF! 
             
-- **BBB: ask CSV**
+- **BBB: 🦜🔗ask CSV:**
   You can ask questions about the data from the uploaded CSV file!
 
-- **CCC: Similarity Calculator**
+- **CCC: 💕Similarity Calculator:**
   From the uploaded CSV file dataset, it will extract and display the top 5 items most relevant to the input text!
 
-- **DDD: Web Search**
+- **DDD: 🌍Web Search:**
   When you ask a question, it will provide answers using information from the web!
             
-- **EEE: Python Agent**
-  It will respond to your questions using Python!
+- **EEE: 🐍ython Agent:**
+  It will respond to your questions using Python! For example, calculations can be performed in response to natural language questions like, "What is the fifth prime number?".
 ''')
 
 
