@@ -22,7 +22,9 @@ def generate_response(uploaded_file, openai_api_key, query_text):
             # Select embeddings
             embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
             # Create a vectorstore from documents
-            db = Chroma.from_documents(texts, embeddings)
+            #db = Chroma.from_documents(texts, embeddings)
+            # 空のメタデータ辞書 {} を提供しないように修正
+            db = Chroma.from_documents(texts, embeddings, metadatas=None)
             # Create retriever interface
             retriever = db.as_retriever()
             # Create QA chain
